@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/groceries_4162923.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>YumTrack</title>
+</head>
+
+<body>
+    <!-- === HEADER SECTION START === -->
+    <header>
+        <h1 class="title">YumTrack</h1>
+        <div class="slogan-container">
+            <h2 class="slogan">Track your meals, enjoy healthy, happy living</h2>
+            <div class="logo-img"></div>
+        </div>
+    </header>
+    <!-- === HEADER SECTION END === -->
+    <!-- === SEARCH INPUT SECTION START === -->
+    <section id="searchSection">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Busca un producto...">
+        </div>
+        <div class="product-list" id="productList"></div>
+    </section>
+    <!-- === SEARCH INPUT SECTION END === -->
+    <!-- === DETAIL FOOD SECTION START === -->
+    <div class="container-infoProduct">
+        <section id="detailSection" style="display: none;">
+            <button id="backBtn" class="back-btn">⬅ Back</button>
+            <div id="productInfo" class="product-info">
+                <h2 id="product_name"></h2>
+                <p id="product_details"></p>
+            </div>
+            <div class="img-product">
+                <img id="product_img" src="" alt="" class="img_product">
+            </div>
+        </section>
+    </div>
+    <!-- === DETAIL FOOD SECTION END === -->
+    <!-- === FAVOURITE SECTION START === -->
+    <!-- FAVOURITE BTN-->
+    <button id="openFavoritesBtn" class="open-fav-btn">⭐ Favourites</button>
+    <section id="favoriteSection" style="display: none;">
+        <button id="closeFavBtn" class="back-btn">✖ Close</button>
+        <h2 class="title-favoritos">My Favourites ⭐</h2>
+
+        <!-- FAVOURITE LIST GALLERY -->
+        <div id="favoriteList" class="favorites-grid"></div>
+    </section>
+    <!-- === FAVOURITE SECTION END === -->
+    <!-- === FOUTER START === -->
+    <footer>
+        <p>&copy; 2025 YumTrack. All rights reserved.</p>
+        <p>Made with ❤️ to help you track your meals.</p>
+    </footer>
+    <!-- === FOUTER END === -->
+    <script src="app.js"></script>
+</body>
+
+</html>
