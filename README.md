@@ -2,7 +2,8 @@
 🥗 YumTrack - Meal Tracker App
 A functional and interactive meal tracking application built with Vanilla JavaScript, focused on efficient DOM manipulation and clean data logic.
 
-🛠️ Tecnologías Utilizadas
+🛠️ Tecnologías Utilizadas :
+
 HTML5: Estructura semántica diseñada para una base sólida de contenido.
 
 Vanilla JavaScript (ES6+): Lógica para la creación dinámica de elementos y gestión de la lista de registros.
