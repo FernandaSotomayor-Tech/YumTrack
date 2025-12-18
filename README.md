@@ -10,7 +10,8 @@ Vanilla JavaScript (ES6+): Lógica para la creación dinámica de elementos y ge
 
 Vanilla CSS: Diseño de interfaz personalizado con un enfoque en la simplicidad y legibilidad.
 
-🧠 Aprendizajes Clave
+🧠 Aprendizajes Clave :
+
 Manipulación del DOM: Selección y actualización de elementos HTML en tiempo real según la interacción del usuario.
 
 Manejo de Eventos: Implementación de escucha de eventos para capturar los datos ingresados en el formulario.
@@ -21,6 +22,7 @@ Flujo de Datos: Estructuración del proceso desde que el usuario escribe hasta q
 
 🚀 Desafíos y Soluciones
 Gestión Dinámica de la Lista:
+
 
 Desafío: Mostrar cada comida nueva de forma organizada y permitir su eliminación individual.
 
@@ -36,4 +38,5 @@ Solución: Lógica de validación que verifica los campos del formulario y previ
 I'm ready to join your team and start building. Reach out!
 
 LinkedIn: [Fernanda Sotomayor](https://www.linkedin.com/in/fernanda-sotomayor-726650265)
+
 Email: [fernandasotomayortech@gmail.com](mailto:fernandasotomayortech@gmail.com)
