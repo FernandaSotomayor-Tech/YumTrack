@@ -40,6 +40,5 @@ Solution: Implemented global counters that update automatically with every modif
 🤝 Let's work together!
 I'm ready to join your team and start building. Reach out!
 
-LinkedIn: Fernanda Sotomayor
-
-Email: fernandasotomayortech@gmail.com
+LinkedIn: [Fernanda Sotomayor](https://www.linkedin.com/in/fernanda-sotomayor-726650265)
+Email: [fernandasotomayortech@gmail.com](mailto:fernandasotomayortech@gmail.com)
