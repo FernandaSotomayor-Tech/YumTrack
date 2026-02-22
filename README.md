@@ -1,38 +1,67 @@
 # YumTrack
 🥗 YumTrack - Meal Tracker App
-A functional and interactive meal tracking application built with Vanilla JavaScript, focused on efficient DOM manipulation and clean data logic.
 
-🛠️ Tecnologías Utilizadas :
+1) Context
 
-HTML5: Estructura semántica diseñada para una base sólida de contenido.
+YumTrack is a lightweight nutrition tracking web app built with JavaScript, HTML, and CSS (Vanilla stack).
 
-Vanilla JavaScript (ES6+): Lógica para la creación dinámica de elementos y gestión de la lista de registros.
+It simulates a simple product lookup tool where users can search foods, view nutritional information, and save favorites — similar to a minimal health companion app.
 
-Vanilla CSS: Diseño de interfaz personalizado con un enfoque en la simplicidad y legibilidad.
+Built as a portfolio project to demonstrate DOM manipulation, state persistence, and structured UI logic without frameworks.
 
-🧠 Aprendizajes Clave :
+2) Problem
 
-Manipulación del DOM: Selección y actualización de elementos HTML en tiempo real según la interacción del usuario.
+Many simple tracking tools lack:
 
-Manejo de Eventos: Implementación de escucha de eventos para capturar los datos ingresados en el formulario.
+Instant search feedback
 
-Persistencia Local: Uso de técnicas para mantener los datos visibles incluso después de refrescar el navegador.
+Clear nutritional breakdown
 
-Flujo de Datos: Estructuración del proceso desde que el usuario escribe hasta que la información aparece en la lista.
+Persistent user preferences
 
-🚀 Desafíos y Soluciones
-Gestión Dinámica de la Lista:
+Structured UI state management
 
+The challenge was to create a small but well-structured app that behaves predictably and feels interactive — without relying on libraries or frameworks.
 
-Desafío: Mostrar cada comida nueva de forma organizada y permitir su eliminación individual.
+3) Solution
 
-Solución: Implementación de funciones que generan nodos de HTML únicos para cada entrada, permitiendo un control total sobre la lista.
+Real-time filtering based on user input
 
-Validación de Entradas:
+Dynamic DOM rendering for product cards
 
-Desafío: Asegurar que el usuario ingrese información válida antes de agregar un nuevo registro.
+Detail view toggle without page reload
 
-Solución: Lógica de validación que verifica los campos del formulario y previene registros vacíos.
+Favorites system powered by localStorage
+
+Responsive grid layout for product display
+
+Clear separation between search, detail, and favorites views
+
+The logic was written to simulate basic state management using pure JavaScript.
+
+4) Result
+
+Instant search experience
+
+Persistent favorites across sessions
+
+Clear UI transitions between views
+
+Clean, modular code structure
+
+A small-scale project that demonstrates understanding of core front-end fundamentals before introducing frameworks.
+
+5) Tech Stack
+
+JavaScript (Vanilla)
+
+HTML5
+
+CSS3 (Grid & Responsive Design)
+
+Browser localStorage API
+
+Built to reinforce strong fundamentals in DOM manipulation, UI state control, and client-side persistence.
 
 🤝 Let's work together!
 I'm ready to join your team and start building. Reach out!
